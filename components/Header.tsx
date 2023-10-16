@@ -19,7 +19,7 @@ export default function Header() {
     );
   };
   return (
-    <View>
+    <View style={{flex: 1}}>
       <View style={styles.headerDiv}>
         <View style={styles.headerDivFlex}>
           <View style={styles.headerDivLeftContent}>
@@ -71,6 +71,7 @@ export default function Header() {
 
 const styles = StyleSheet.create({
   headerDiv: {
+    flex: 1,
     height: 80,
     width: 413,
     backgroundColor: '#75C2F6',

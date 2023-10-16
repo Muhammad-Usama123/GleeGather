@@ -8,7 +8,7 @@ export default function ClientsPremisesCards(props: any) {
   
 
   return (
-    <View>
+    <View style= {{flex: 1}}>
       
           <View style={styles.container}>
             <View style={styles.container1}>

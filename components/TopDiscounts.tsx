@@ -23,6 +23,7 @@ export default function TopDiscounts() {
 
 const styles = StyleSheet.create({
     mainDiv: {
+        flex: 1,
         marginTop: 40,
         backgroundColor: '#fff'
         },

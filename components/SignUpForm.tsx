@@ -62,7 +62,7 @@ export default SignUpForm
 const styles = StyleSheet.create({
     container: {
         margin: 20,
-        // flex: 1,
+        flex: 1,
     },
     container1: {
         // flex: 1,
